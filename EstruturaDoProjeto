@@ -1,0 +1,35 @@
+inpi_scraper/
+├── src/                      # Código-fonte principal
+│   ├── __init__.py
+│   ├── config/               # Configurações do projeto
+│   │   ├── __init__.py
+│   │   └── settings.py
+│   ├── core/                 # Funcionalidades principais
+│   │   ├── __init__.py
+│   │   ├── scraper.py        # Classe base de scraping
+│   │   └── parser.py         # Funções de parsing 
+│   ├── models/               # Estruturas de dados
+│   │   ├── __init__.py
+│   │   └── trademark.py      # Classes para representar marcas/patentes
+│   ├── services/             # Serviços específicos
+│   │   ├── __init__.py
+│   │   ├── inpi_service.py   # Interação com o INPI
+│   │   └── export_service.py # Serviços para exportar dados
+│   └── utils/                # Utilitários
+│       ├── __init__.py
+│       ├── logger.py         # Configuração de logging
+│       └── helpers.py        # Funções auxiliares
+├── tests/                    # Testes automatizados
+│   ├── __init__.py
+│   ├── test_scraper.py
+│   └── test_parser.py
+├── data/                     # Dados extraídos
+│   └── .gitkeep
+├── logs/                     # Logs do sistema
+│   └── .gitkeep
+├── docs/                     # Documentação
+│   └── README.md
+├── main.py                   # Ponto de entrada da aplicação
+├── requirements.txt          # Dependências do projeto
+├── setup.py                  # Configuração para instalação
+└── README.md                 # Documentação principal
